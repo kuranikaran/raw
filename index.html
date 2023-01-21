@@ -10,6 +10,7 @@
 		<link rel="shortcut icon" href="../favicon.ico">
 		<link rel="stylesheet" type="text/css" href="css/component.css" />
 		<script src="js/modernizr.custom.js"></script>
+		
         
 <!-- header -->
 
@@ -24,6 +25,9 @@
 		<script type="text/javascript" src="src/custom.js"></script>
 		<script type="text/javascript" src="calculator.js"></script>
 <!-- banner -->
+
+
+
 </head>
 
 <body>
@@ -87,7 +91,6 @@
 <select id='select_unit'>
 <option class="" value='1'>Meters</option>
 <option class="" value='2'>Feet</option>
-<option class="" value='3'>Inches</option>
 </select>
 </td><td width="161"></td></tr>
 </table>
@@ -95,18 +98,18 @@
 <table border="0" class="area-tbl1" cellpadding="0" cellspacing="0">
 <tr><td class="area-bg1 area-left">&nbsp;<strong>&nbsp;</strong></td><td colspan="2" class="area-bg1 area-left">&nbsp;<strong>&nbsp;</strong></td></tr>
 <tr><td width="277" class="area-left">Length of the Wall</td><td width="160">
-<input type="text" class="area-in" id='length' />
+<input type="text" class="area-in" id="length"/>
 </td><td width="161"></td></tr>
 <tr><td width="277" class="area-left">Height of the Wall</td><td width="160">
-<input type="text" class="area-in" id='height' />
+<input type="text" class="area-in" id="height"/>
 </td><td width="161"></td></tr>
 <tr><td width="277" class="area-left">Width of the wall (Block Width)</td><td width="160">
-<select id='width'>
-<option class="" value='75'  rel='0.009'>3" - 75mm</option>
-<option class="" value='100' rel='0.012'>4" - 100mm</option>
-<option class="" value='150' rel='0.018'>6" - 150mm</option>
-<option class="" value='200' rel='0.024'>8" - 200mm</option>
-<option class="" value='230' rel='0.0276'>9" - 230mm</option>
+<select id="width">
+<option class="" value="75" rel="0.009">3" - 75mm</option>
+<option class="" value="100" rel="0.012">4" - 100mm</option>
+<option class="" value="150" rel="0.018">6" - 150mm</option>
+<option class="" value="200" rel="0.024">8" - 200mm</option>
+<option class="" value="230" rel="0.0276">9" - 230mm</option>
 </select>
 </td><td width="161"></td></tr>
 </table>
@@ -134,29 +137,29 @@
 <tr><td colspan="4" class="area-bg1 area-left"><strong>BOM for making a wall with Duralite</strong></td></tr>
 <tr><td width="272" class="area-left">Volume of the Wall </td><td width="164">Cu. Mtr</td><td colspan="2">
 
-<input type="text" class="area-in" id='vow' readonly />
+<input type="text" class="area-in" id="vow" readonly/>
 
 </td></tr>
 <tr><td class="area-left">Area of the Wall </td><td>Sq. Mtr</td><td colspan="2">
 
-<input type="text" class="area-in" id='aow' readonly />
+<input type="text" class="area-in" id="aow" readonly/>
 </td></tr>
 <tr><td class="area-left">Number of Blocks </td><td>Nos.</td><td width="89">
 
-<input type="text" class="area-in2" id='nob' readonly />
+<input type="text" class="area-in2" id="nob" readonly/>
 </td>
 </tr>
 <tr><td class="area-left">Mortar - Duraseal (40 Kg Bag)</td><td>Bags</td><td colspan="2">
-<input type="text" class="area-in" id='bags' />
+<input type="text" class="area-in" id="bags"/>
 </td></tr>
 <tr>
-<td class="area-bg1" id='calculate_td'><a href="javascript:void(0)"><strong>&nbsp;</strong></a></td><td></td>
+<td class="area-bg1" id="calculate_td"><a href="javascript:void(0)"><strong>&nbsp;</strong></a></td><td></td>
 
-<td colspan="2" class="area-bg1" id='resetit'><a href="javascript:void(0)" class="clr-btn"><strong>Clear</strong></a></td></tr>
+<td colspan="2" class="area-bg1" id="resetit"><a href="javascript:void(0)" class="clr-btn"><strong>Clear</strong></a></td></tr>
 </table>
 </div>
 <div class="clear"></div>
-<br />
+<br/>
 <p><strong>Note:</strong> </p>	
 <ul class="list2">				
 <li>Above values are approximate wastage, breakage and other losses are not considered</li>
@@ -174,7 +177,11 @@
 <div id="footer">
 <div id="footer-wrapper">
 <div class="footer-left">
-Copyright : 2015 | Shreeji Blocks Pvt. Ltd. 
+Copyright : <script language="javascript" type="text/javascript">
+var today = new Date()
+var year = today.getFullYear()
+document.write(year)
+</script> | Shreeji Blocks Pvt. Ltd. 
 </div>
 
 <div class="footer-right">
@@ -245,5 +252,6 @@ Designed & Developed by : <a href="http://www.iperfect.in" target="_blank">I Per
 
 <script src="js/classie.js"></script>
 <script src="js/cbpAnimatedHeader.min.js"></script>
+
 </body>
 </html>
