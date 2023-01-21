@@ -10,7 +10,6 @@
 		<link rel="shortcut icon" href="../favicon.ico">
 		<link rel="stylesheet" type="text/css" href="css/component.css" />
 		<script src="js/modernizr.custom.js"></script>
-		
         
 <!-- header -->
 
@@ -23,15 +22,11 @@
 		<script type="text/javascript" src="src/jquery.simpleslider.js"></script>
 		<script type="text/javascript" src="src/backstretch.js"></script>
 		<script type="text/javascript" src="src/custom.js"></script>
-		<script type="text/javascript" src="calculator.js"></script>
 <!-- banner -->
-
-
-
 </head>
 
 <body>
-<!--<div id="map-link"><a href="area-calculator.html" class="area-btn"></a></div>-->
+<div id="map-link"><a href="area-calculator.html" class="area-btn"></a></div>
 <div class="cbp-af-header">
 <div class="cbp-af-inner">
 <a href="index.html"><img src="images/logo.jpg" width="280" height="104" class="logo" /></a>
@@ -57,7 +52,7 @@
 <div class="menu-area">
 <div class="menu-area-wrapper">
 <ul class="topmenu-links">
-	<li><a href="index.html">Home</a></li>
+	<li><a href="index.html" class="active">Home</a></li>
     <li><a href="about-us.html">About Us</a></li>
     <li><a href="products.html">Products</a></li>
     <li><a href="tools.html">Tools</a></li>
@@ -67,7 +62,6 @@
     <li><a href="skill-development.html">Skill Development </a></li>
     <li><a href="faq.html">FAQ's</a></li>
     <li><a href="contact-us.html">Contact Us</a></li>
-    
 </ul>
 </div>
 </div>
@@ -77,111 +71,237 @@
 <!-- header close -->
 
 
+<div id="banner-area">
+<div class='pageblock' id='fullscreen'>
+				<div class='slider'>
+					<div class='slide' id="first">
+						<!--<div class='slidecontent'>
+							
+                            
+                            <div class="slide-text">
+							<div class="button">
+                            <div class="h1">Lorem Ipsum Dolor Set</div>
+                            </div>
+                            
+                            </div>
+                            
+                            
+                            
+						</div>-->
+					</div>
+                    <div class='slide' id="second">
+						<div class='slidecontent'>
+							
+                            
+                            <div class="slide-text">
+							<div class="button">
+                            <div class="h1">A Sustainable Alternative</div>
+                           	</div>
+                            
+                            </div>
+                           
+                            
+                            
+						</div>
+					</div>
+                    
+                    <div class='slide' id="third">
+						<div class='slidecontent'>
+                            <div class="slide-text">
+							<div class="button">
+                            <div class="h1">Engineered for New Age Construction</div>
+                            </div>
+                            </div>
+                            
+						</div>
+					</div>
+                    
+                    <div class='slide' id="fourth">
+						<div class='slidecontent'>
+                            <div class="slide-text">
+							<div class="button">
+                            <div class="h1">Towards a Greener Tomorrow </div>
+                            </div>
+                            </div>
+						</div>
+					</div>
+                    <div class='slide' id="fifth">
+						<!--<div class='slidecontent'>
+							
+                            
+                            <div class="slide-text">
+							<div class="button">
+                            <div class="h1">Lorem Ipsum Dolor Set</div>
+                            
+                            Lorem ipsum dolor sit amet consectetur adipiscing elit. Cras eu finibus lacus, in blandit elit. Phasellus varius, tellus et blandit venenatis, metus purus viverradolor sit amet leo, et molestie augue quam ornare turpis.</div>
+                            
+                            </div>
+                            
+                            
+                            
+						</div>-->
+					</div>
+                    
+                    <!--<div class='slide' id="sixth"></div>-->
+                    
+					
+					
+				</div>
+			</div>
 
+
+<div class="clear"></div>
+</div>
 <!-- banner close -->
 
-<form id='myform' >
-<div id="content-wrapper2">
-<h1>AAC BLOCK  Calculator</h1>
-<img src="images/area-calculator.jpg" alt="" style="float:right;border:#f37737 2px solid;border-radius:2px;margin:10px 20px 0px 0px;" />
-<div class="area-calculator-box">
-<table border="0" class="area-tbl1" cellpadding="0" cellspacing="0">
-<tr><td colspan="3" class="area-bg2"><strong>(Fill in the Blanks Appropriately)</strong></td></tr>
-<tr><td width="273" class="area-left">Select Unit of Measurement</td><td width="160">
-<select id='select_unit'>
-<option class="" value='1'>Meters</option>
-<option class="" value='2'>Feet</option>
-</select>
-</td><td width="161"></td></tr>
-</table>
 
-<table border="0" class="area-tbl1" cellpadding="0" cellspacing="0">
-<tr><td class="area-bg1 area-left">&nbsp;<strong>&nbsp;</strong></td><td colspan="2" class="area-bg1 area-left">&nbsp;<strong>&nbsp;</strong></td></tr>
-<tr><td width="277" class="area-left">Length of the Wall</td><td width="160">
-<input type="text" class="area-in" id="length"/>
-</td><td width="161"></td></tr>
-<tr><td width="277" class="area-left">Height of the Wall</td><td width="160">
-<input type="text" class="area-in" id="height"/>
-</td><td width="161"></td></tr>
-<tr><td width="277" class="area-left">Width of the wall (Block Width)</td><td width="160">
-<select id="width">
-<option class="" value="75" rel="0.009">3" - 75mm</option>
-<option class="" value="100" rel="0.012">4" - 100mm</option>
-<option class="" value="150" rel="0.018">6" - 150mm</option>
-<option class="" value="200" rel="0.024">8" - 200mm</option>
-<option class="" value="230" rel="0.0276">9" - 230mm</option>
-</select>
-</td><td width="161"></td></tr>
-</table>
-
-<!--<table border="0" class="area-tbl1" cellpadding="0" cellspacing="0">
-<tr><td colspan="3" class="area-bg1 area-left"><strong>Internal Wall</strong></td></tr>
-<tr><td width="277" class="area-left">Length of the Wall</td><td width="160">
-<input type="text" class="area-in" />
-</td><td width="161"></td></tr>
-<tr><td width="277" class="area-left">Height of the Wall</td><td width="160">
-<input type="text" class="area-in" />
-</td><td width="161"></td></tr>
-<tr><td width="277" class="area-left">Width of the wall (Block Width)</td><td width="160">
-<select>
-<option class="">3" - 75mm</option>
-<option class="">4" - 100mm</option>
-<option class="">6" - 150mm</option>
-<option class="">8" - 200mm</option>
-<option class="">9" - 230mm</option>
-</select>
-</td><td width="161"></td></tr>
-</table>-->
-
-<table border="0" class="area-tbl1" cellpadding="0" cellspacing="0">
-<tr><td colspan="4" class="area-bg1 area-left"><strong>BOM for making a wall with Duralite</strong></td></tr>
-<tr><td width="272" class="area-left">Volume of the Wall </td><td width="164">Cu. Mtr</td><td colspan="2">
-
-<input type="text" class="area-in" id="vow" readonly/>
-
-</td></tr>
-<tr><td class="area-left">Area of the Wall </td><td>Sq. Mtr</td><td colspan="2">
-
-<input type="text" class="area-in" id="aow" readonly/>
-</td></tr>
-<tr><td class="area-left">Number of Blocks </td><td>Nos.</td><td width="89">
-
-<input type="text" class="area-in2" id="nob" readonly/>
-</td>
-</tr>
-<tr><td class="area-left">Mortar - Duraseal (40 Kg Bag)</td><td>Bags</td><td colspan="2">
-<input type="text" class="area-in" id="bags"/>
-</td></tr>
-<tr>
-<td class="area-bg1" id="calculate_td"><a href="javascript:void(0)"><strong>&nbsp;</strong></a></td><td></td>
-
-<td colspan="2" class="area-bg1" id="resetit"><a href="javascript:void(0)" class="clr-btn"><strong>Clear</strong></a></td></tr>
-</table>
-</div>
-<div class="clear"></div>
-<br/>
-<p><strong>Note:</strong> </p>	
-<ul class="list2">				
-<li>Above values are approximate wastage, breakage and other losses are not considered</li>
-<li>Mortar consumption / coverage is approximate, actual consumption may vary depending working condition and workmanship </li>				
-<li>Shreeji Blocks Pvt. Ltd. is in no way responsible for any deviations or claims on above	</li>				
-</ul>
-
+<div id="content-wrapper">
+<div class="leftside">
+<h1>Welcome to Duralite</h1>
+<p><strong>Shreeji Blocks Pvt. Ltd.</strong> is a company founded by a very young set of promoters and is driven by the passion to offer next generation solution, which also contributes positively to the environment.</p>
+<p><strong>Duralite AAC</strong> promise to contribute in changing the future of industrial, commercial, residential development with its determination and skills. With our commitment to research and development, we have helped transform this unique and versatile product into modern building systems we have today.</p>
+<p>With the state of the art technology and single minded vision to excel in construction industry we have created a brand called “DURALITE – Durable and Light in weight”</p>
+<p>Sustainability is now a priority that touches almost every aspect of our lives. We at Shreeji manufacture Duralite AAC blocks using pulverized fuel ash (PFA), a by-product from thermal power plant and it is for this reason our products are considered as environmentally friendly. This gives our company a strong platform to build a viable and long-term strategy for the future that covers all the aspects of sustainable issues in a broader sense.</p>
+<a href="about-us.html" class="readmore-bt"></a>
 
 
 <div class="clear"></div>
 </div>
-</form>
+<!-- left close -->
+
+<div class="rigthside">
+<!--<div class="enquiry-heading">  AAC IS GREEN</div>-->
+
+<div class="h-aac">
+<div class="green-heading">  AAC IS GREEN</div>
+Autoclaved Aerated Concrete (AAC) is an environmentally friendly building material that is used to save energy and enhance the quality of the built environment. AAC’s high R-values contribute directly to the goals that encourages the environmental pursuits.</div>
+
+
+<div class="clear"></div>
+</div>
+<!-- right close -->
+<div class="clear"></div>
+
+<div class="h-box1">
+<div class="h-box-heading">Duralite</div>
+<div class="h-box-inner">
+<a href="products.html"><img src="images/01.jpg" /></a>
+<a href="products.html" class="viewmore-bt">View More</a>
+</div>
+<div class="clear"></div>
+</div>
+
+<div class="h-box2">
+<div class="h-box-heading">Duraseal</div>
+<div class="h-box-inner">
+<a href="products.html"><img src="images/02.jpg" /></a>
+<a href="products.html" class="viewmore-bt">View More</a>
+</div>
+<div class="clear"></div>
+</div>
+
+<div class="benifit-heading">
+<!--<img src="images/benifit-icon.png" width="37" height="35" />-->Benefits &amp; features of duralite blocks
+</div>
+<div class="benifits-bg">
+	<div href="#" class="tooltip">
+        <div class="bnf-box1">
+            <img src="images/icon-01.jpg" alt="" /><br />
+            <p>Fire Resistance</p>
+        </div>
+        <span> <img class="callout" src="images/callout.gif" /> AAC has one of the highest hourly fire-resistance ratings per inch of any building material. AAC is non-combustible – it will not burn. AAC units offer excellent fire protection for fire-rated walls. AAC is not only versatile structurally but its fire resistance properties are outstanding.</span>
+    </div>
+    
+    <div href="#" class="tooltip">
+        <div class="bnf-box1">
+            <img src="images/icon-02.jpg" alt="" /><br />
+            <p>Energy Efficient</p>
+        </div>
+        <span> <img class="callout" src="images/callout.gif" />Duralite AAC Blocks give superior thermal insulation because of low thermal conductivity and low air
+infiltration. Moreover.Lesser joints and better compacted jointing mortar add to the sound and thermal efficiency.</span>
+    </div>
+    
+    <div href="#" class="tooltip">
+        <div class="bnf-box1">
+            <img src="images/icon-03.jpg" alt="" /><br />
+            <div class="bnf-box1-ad">Water &amp; Earthquake Resistant</div>
+        </div>
+        <span> <img class="callout" src="images/callout.gif" /> The impact of earthquake forced on a structure is proportional to the weight of the structure. Hence, DURALITE AAC provides excellent resistance to earthquake forces. </span>
+    </div>
+    
+    <div href="#" class="tooltip">
+        <div class="bnf-box1">
+            <img src="images/icon-04.jpg" alt="" /><br />
+            <p>Long Lasting</p>
+        </div>
+    	<span> <img class="callout" src="images/callout.gif" /> AAC does not rot or deteriorate over time. Structures built with AAC
+Product have a long life and retain good finish even after 
+decades. Although actual life of AAC products depends on various factors,  as  per various standards institutes. </span>
+    </div>
+    
+    <div href="#" class="tooltip">
+        <div class="bnf-box1 bnf-right">
+            
+            <img src="images/icon-05.jpg" alt="" /><br />
+            <p>Acoustically Absorbent</p>
+        </div>
+        <span> <img class="callout" src="images/callout.gif" />Duralite AAC Blocks provide excellent sound absorbent with a sound Trasmission class rating off 44. It is a sellular
+structure which provides superior sound insulation.</span>
+    </div>
+    
+    <div class="clear"></div>
+    
+    
+    <div href="#" class="tooltip">
+        <div class="bnf-box1 bnf-left">
+            <img src="images/icon-06.jpg" alt="" /><br />
+            <p>Environment Friendly</p>
+        </div>
+    	<span> <img class="callout" src="images/callout.gif" /> Ash disposal is a major problem for coal based power plant. Fly ash generated from such plants is used for manufacturing AAC blocks. Moreover AAC manufacturing  process require les energy. Has very low emission and does not generate any waste products. </span>
+    </div>
+    
+    
+    <div href="#" class="tooltip">
+        <div class="bnf-box1">
+            <img src="images/icon-07.jpg" alt="" /><br />
+            <p>Pest Resistent</p>
+        </div>
+        <span> <img class="callout" src="images/callout.gif" /> Duralite  AAC  are made up of inorganic materials, which does not get disintegrated, is not susceptible to external influences and keeps termites away avoiding damages and losses. </span>
+    </div>
+    
+    
+    <div href="#" class="tooltip">
+        <div class="bnf-box1">
+            <img src="images/icon-08.jpg" alt="" /><br />
+            <p>Easy To Use</p>
+        </div>
+        <span> <img class="callout" src="images/callout.gif" /> Duralite blocks can be easily cut, drilled and grooved with manual or power tools. This provides higher productivity in electrical and plumbing installations. </span>
+    </div>
+    
+    <div href="#" class="tooltip">
+        <div class="bnf-box1">
+            <img src="images/icon-09.jpg" alt="" /><br />
+            <p>Versatile</p>
+        </div>
+    	<span> <img class="callout" src="images/callout.gif" /> Duralite AAC blocks have an attractive  appearance and is readily 
+Adaptable  to any style of architecture. Almost any type of desighn 
+Can be achived with AAC. </span>
+    </div>
+    <div class="clear"></div>
+    
+    
+    
+</div>
+
+
+<div class="clear"></div>
+</div>
 <!-- content wrapper close -->
 
 <div id="footer">
 <div id="footer-wrapper">
 <div class="footer-left">
-Copyright : <script language="javascript" type="text/javascript">
-var today = new Date()
-var year = today.getFullYear()
-document.write(year)
-</script> | Shreeji Blocks Pvt. Ltd. 
+Copyright : 2015 | Shreeji Blocks Pvt. Ltd. 
 </div>
 
 <div class="footer-right">
@@ -195,63 +315,11 @@ Designed & Developed by : <a href="http://www.iperfect.in" target="_blank">I Per
 </div>
 <!-- footer close -->
 
-<script>
-	function resetit(){
-		document.getElementById('myform').reset();
-	}
-	$().ready(function(){
-	resetit();
-	var inch= 0.0254;			// 1 inch = 0.0254 meter
-	var feet= 0.3048;			// 1 feet = 0.3048 meter
-	var meter=1;
-	
-	$('#select_unit , #length , #height , #width').live('keypress , change',function(evt){ //alert(evt.which);
-			 if ((evt.which < 48 || evt.which > 57 ) && evt.which != 46  && evt.which != 8  && evt.which != 0  ){
-				evt.preventDefault();
-			}
-			if(evt.which == 46){
-				if($(this).val().indexOf(".",0) >= 0){
-					evt.preventDefault();
-				}
-			}
-			calculateNow();
-		});
-		
-	function calculateNow(){
-		
-		var sel_un=$('#select_unit').val();
-		var d = parseFloat(sel_un==1?'1':(sel_un==2?feet:(sel_un==3?inch:'')));
-		
-		var a = parseFloat($('#length').val()) * d;
-		var b = parseFloat($('#height').val()) * d;
-		var c = parseFloat($('#width').val()) / 1000;
-		
-		var wow = $('#width option:selected').attr('rel');
-		var vow	= a * b * c;
-		var aow = a * b;
-		var nob = Math.round( vow / wow );
-		var bags = Math.round(vow);
-		
-		$('#vow').val(vow);
-		$('#aow').val(aow);
-		$('#nob').val(nob);
-		$('#bags').val(bags);
-	}
-	$('#calculate_td').click(function(){
-		calculateNow();
-	});
-	
-	$('#resetit').click(function(){
-		resetit();
-	});
-	
-});
-</script>
+
 
 
 
 <script src="js/classie.js"></script>
 <script src="js/cbpAnimatedHeader.min.js"></script>
-
 </body>
 </html>
