@@ -1,0 +1,194 @@
+
+
+ul{
+	margin:0;
+	padding:0;
+}
+
+ul.container{
+	/* The topmost UL */
+	width:940px;
+	margin:0 auto;
+	padding:0;
+}
+
+li{
+	list-style:none;
+	margin:0px 0 0 0;
+	color:#f7cac6;
+}
+li span{
+	color:#a5a5a5;
+	font-weight:normal;
+	font-size:13px;
+}
+li.menu{
+	/* The main list elements */
+	padding:5px 0;
+	width:100%;
+}
+#open{
+	display:block;
+}
+
+li.button a{
+	/* The section titles */
+	display:block;
+	font-family:BPreplay,Arial,Helvetica,sans-serif;
+	font-size:21px;
+	height:34px;
+	overflow:hidden;
+	padding:10px 20px 0;
+	position:relative;
+	width:200px;
+}
+
+li.button a:hover{
+	/* Removing the inherited underline from the titles */
+	text-decoration:none;
+}
+
+li.button a span{
+	/* This span acts as the right part of the section's background */
+	height:34px;
+	position:absolute;
+	right:0;
+	top:0;
+	width:4px;
+	display:block;
+}
+
+/* Setting up different styles for each section color */
+
+li.button a.white{padding:0px 0px 0px 0px;color:#ae924f !important; width:auto; font-size:20px; font-family:"Times New Roman", Times, serif; font-weight:normal;background:url(../images/li-bg.png); height:auto;border-radius:20px;line-height:}
+li.button a.white img{
+	float:left;
+	margin-right:15px;
+}
+.button p
+{
+	padding:7px 0px 0px 0px;font-size:20px; font-family:"Times New Roman", Times, serif; font-weight:normal; color:#ae924f;
+}
+
+/* The hover effects */
+
+li.button a:hover{ background-position:bottom left;}
+li.button a:hover span{ background-position:bottom right;}
+
+.dropdown{
+	/* The expandable lists */
+	display:none;
+	padding-top:0px;
+	width:100%;
+	text-align:justify;
+}
+.space{
+	margin:15px 0 15px 0;
+}
+
+/* The styles below are only necessary for the demo page */
+
+
+
+.clear{
+	clear:both;
+}
+
+#main{
+	/* The main container */
+	margin:15px auto;
+	text-align:center;
+	width:920px;
+	position:relative;
+}
+.acd-tbl td
+{
+	vertical-align:top;
+}
+.que
+{
+	margin:0px 20px 0px 0px;
+	padding:8px 0px;
+	font-family:"Times New Roman", Times, serif;
+	color:#000000;
+	font-size:23px;
+	background:#ae924f;
+	float:left;
+	width:100px;
+	text-align:center;
+}
+.ans
+{
+	margin:5px 20px 0px 0px;
+	padding:8px 0px;
+	font-family:"Times New Roman", Times, serif;
+	color:#000000;
+	font-size:23px;
+	background:#249156;
+	float:left;
+	width:100px;
+	text-align:center;
+}
+
+
+@media only screen and (min-width:720px) and (max-width:989px) {
+ul.container{
+	/* The topmost UL */
+	width:650px;
+	margin:0 auto;
+	padding:0;
+}	
+}
+@media screen and (min-width:480px) and (max-width:719px){
+ul.container{
+	/* The topmost UL */
+	width:410px;
+	margin:0 auto;
+	padding:0;
+}	
+}
+@media screen and (min-width:320px) and (max-width:479px){
+ul.container{
+	/* The topmost UL */
+	width:280px;
+	margin:0 auto;
+	padding:0;
+}	
+}
+@media screen and (max-width:320px){
+ul.container{
+	/* The topmost UL */
+	width:280px;
+	margin:0 auto;
+	padding:0;
+}	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
